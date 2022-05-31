@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Mochiy+Pop+One");
+
+:root {
+  --main-color: #a7c957;
+  --second-color: #f2e8cf;
+  --third-color: #bc4749;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Mochiy Pop One", sans-serif;
+}

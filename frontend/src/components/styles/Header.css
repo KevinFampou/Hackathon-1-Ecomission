@@ -1,0 +1,50 @@
+@media screen and (max-width: 767px) {
+  .navBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--main-color);
+    height: 13vh;
+  }
+
+  img.logo {
+    margin: 10px;
+    width: 20vw;
+  }
+
+  .navBar a {
+    text-decoration: none;
+    padding: 10px;
+  }
+  .link a {
+    color: var(--third-color);
+  }
+}
+
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--main-color);
+  height: 15vh;
+}
+
+.link a {
+  color: var(--third-color);
+  margin-right: 2rem;
+}
+
+nav a.navlink.active {
+  font-size: 1.4rem;
+  color: var(--second-color);
+}
+
+img.logo {
+  margin: 10px;
+}
+
+.navBar a {
+  text-decoration: none;
+  padding: 10px;
+  font-size: 1.5rem;
+}
