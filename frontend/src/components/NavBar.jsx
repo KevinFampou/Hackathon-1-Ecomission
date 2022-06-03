@@ -3,13 +3,13 @@ import { NavLink } from "react-router-dom";
 import PropTypes from "prop-types";
 // eslint-disable-next-line import/no-unresolved
 import "@components/styles/Header.css";
-import logo from "../assets/logo4.png";
+import logo4 from "../assets/logo4.png";
 
 function NavBar(props) {
   const { home, infos } = props;
   return (
     <nav className="navBar">
-      <img className="logo" src={logo} alt="logo" />
+      <img className="logo" src={logo4} alt="logo" />
       <div className="link">
         <NavLink className="navlink" to="/">
           {home}
