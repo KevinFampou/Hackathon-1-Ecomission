@@ -1,13 +1,13 @@
 import { React, useContext } from "react";
 import userChoiceContext from "../contexts/userChoiceContext";
-import "../assets/voiture.png";
+import voiture from "../assets/voiture.png";
 
 function Resultat() {
   const { userChoice } = useContext(userChoiceContext);
   return (
     <div className="result">
       <div>
-        <img src="./src/assets/voiture.png" alt="voiture" />
+        <img src={voiture} alt="voiture" />
         <h1>{userChoice}</h1>
       </div>
     </div>
