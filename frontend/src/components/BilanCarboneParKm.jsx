@@ -1,10 +1,11 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
+import Images from "./images";
 
+console.log(Images[0].url)
 export default function BilanCarboneParKm() {
   const [nbKilometres, setNbKilometres] = useState(10);
   const [donneesCarbone, setDonneesCarbone] = useState([]);
-
   const getData = () => {
     axios
       .get(
@@ -42,7 +43,8 @@ export default function BilanCarboneParKm() {
           return (
             <div>
               <img
-                src={`./src/assets/${donnee.id}.png`}
+               // src={`./src/assets/${donnee.id}.png`}
+               src={Images[donnee.id].url}
                 alt="mode de transport"
               />
               <p className="text" key={donnee.id}>
